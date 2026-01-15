@@ -1,6 +1,15 @@
+
 body{
+    width: min(100%, 1200px);
+    margin: auto;
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    height: 20px;
+    background-color: #bb7621;
+    margin: none;
+    width: 100%;
 }
 header{
     width: 80vw;
@@ -12,4 +21,19 @@ header{
 #EveryHue{
     font-size: 50px;
     margin-bottom: 3pc;
+}
+main{
+    margin: 25px;
+    display: flex;
+    flex-grow: column wrap;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #ead1bf;
+    width: 80%;
+    align-content: left;
+    padding: 5px;
+    padding-left: 10px;
+    
 }
