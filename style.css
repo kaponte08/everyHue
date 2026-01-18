@@ -23,7 +23,7 @@ header{
 #EveryHue{
     font-size: 300%;
     margin-bottom: 3pc;
-    letter-spacing: 1pc;
+    letter-spacing: 10px;
 }
 #aptmt-setup{
     width: 220px;
