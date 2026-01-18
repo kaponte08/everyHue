@@ -33,6 +33,10 @@ header{
     color: white;
     font-size: 14px;
 }
+#aptmt-setup:hover{
+    background-color: #b04c12;
+}
+
 main{
     margin: 25px;
     display: flex;
@@ -49,12 +53,11 @@ section{
 .row{
     display: flex;
     flex-flow: row wrap;
-    gap: 15px;
+    gap: 5px;
     height: 8pc;
-
 }
 .row img{
-    width: 8pc;
+    width: 7pc;
     border-radius: 20px;
     box-shadow: rgba(4, 1, 46, 0.271) 5px 10px 15px ;
 }
